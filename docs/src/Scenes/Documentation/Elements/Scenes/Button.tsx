@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import * as Highlight from 'react-highlight';
 
 import TableDocs from './../../../../Components/TableDocs';

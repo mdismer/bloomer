@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import * as Grid from './../../src/grid/grid';
 
 describe('removeProps functions', () => {
