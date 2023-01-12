@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import { Column, Columns, Container, Content, Footer, Icon } from './../../../src/';
 
@@ -9,7 +9,7 @@ const Foot = (props) => (
                 <Columns>
                     <Column isSize="full">
                         <p>
-                            Made with<Icon hasTextColor="danger" className="fa fa-heart"></Icon> 
+                            Made with<Icon hasTextColor="danger" className="fa fa-heart"></Icon>
                             by <a href="https://twitter.com/AlgusDark" target="_blank">Algus Dark</a>
                         </p>
                         <p>

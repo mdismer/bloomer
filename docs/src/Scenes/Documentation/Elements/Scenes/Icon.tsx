@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import * as Highlight from 'react-highlight';
 
 import TableDocs from './../../../../Components/TableDocs';
@@ -35,9 +35,9 @@ const IconDocs = (props) => (
         <Title>Icon</Title>
         <Content>
             This element provides a container for icons that adds the corresponding space
-            while the icons load. The <code>isSize</code> modifier applies to the container, and 
-            the classes needed for the icon depending on your font icons library are passed as the 
-            component's class. Because of this, Bloomer currently only supports font icons that 
+            while the icons load. The <code>isSize</code> modifier applies to the container, and
+            the classes needed for the icon depending on your font icons library are passed as the
+            component's class. Because of this, Bloomer currently only supports font icons that
             use classes to work, and not data attributes like Open Ionic.
         </Content>
         <Title isSize={4}>Font Awesome</Title>

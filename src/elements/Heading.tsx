@@ -1,5 +1,5 @@
 import * as classNames from 'classnames';
-import * as React from 'react';
+import React from 'react';
 
 import { Bulma, withHelpersModifiers } from './../bulma';
 

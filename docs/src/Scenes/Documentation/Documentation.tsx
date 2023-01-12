@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Link, Redirect, Route, Switch, withRouter } from 'react-router-dom';
 
 import { NoMatch } from './../../Components/NavRoutes';

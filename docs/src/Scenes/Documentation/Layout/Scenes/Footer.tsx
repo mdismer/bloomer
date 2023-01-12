@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import * as Highlight from 'react-highlight';
 import { Link } from 'react-router-dom';
 
@@ -33,7 +33,7 @@ const FooterDocs = (props) => (
                     <Columns>
                         <Column isSize="full">
                             <p>
-                                Made with<Icon hasTextColor="danger" className="fa fa-heart"></Icon> 
+                                Made with<Icon hasTextColor="danger" className="fa fa-heart"></Icon>
                                 by <a>Algus Dark</a>
                             </p>
                         </Column>
