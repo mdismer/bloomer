@@ -1,5 +1,5 @@
-import * as React from 'react';
-import * as Highlight from 'react-highlight';
+import  React from 'react';
+import  Highlight from 'react-highlight';
 import { Link } from 'react-router-dom';
 
 import { Column, Columns, Container, Content, Footer, Icon, Subtitle, Title } from './../../../../../../src';

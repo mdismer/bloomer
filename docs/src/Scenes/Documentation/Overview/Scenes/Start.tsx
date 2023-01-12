@@ -1,11 +1,11 @@
-import * as React from 'react';
-import * as Highlight from 'react-highlight';
+import  React from 'react';
+import  Highlight from 'react-highlight';
 
 import { Container } from './../../../../../../src';
 import { Subtitle, Title } from './../../../../../../src';
 
-const startExample = `import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+const startExample = `import  React from 'react';
+import  ReactDOM from 'react-dom';
 import { Container, Box  } from 'bloomer';
 
 ReactDOM.render(

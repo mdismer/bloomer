@@ -1,5 +1,5 @@
-import * as React from 'react';
-import * as Highlight from 'react-highlight';
+import  React from 'react';
+import  Highlight from 'react-highlight';
 import { Link } from 'react-router-dom';
 
 import TableDocs from './../../../../Components/TableDocs';
@@ -187,7 +187,7 @@ const Helpers = (props) => (
 
         <p>MyComponent.jsx</p>
         <Highlight className="javascript">
-            {`import * as React from 'react';
+            {`import  React from 'react';
 import { withHelpersModifiers  } from 'bloomer';
 
 const MyComponent = (props) => (
@@ -200,7 +200,7 @@ export default withHelpersModifiers(MyComponent);
 
         <p>Other.jsx</p>
         <Highlight className="javascript">
-            {`import * as React from 'react';
+            {`import  React from 'react';
 import MyComponent from './MyComponent.jsx'
 
 const Other = (props) => (

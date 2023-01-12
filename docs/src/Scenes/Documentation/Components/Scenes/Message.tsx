@@ -1,5 +1,5 @@
-import * as React from 'react';
-import * as Highlight from 'react-highlight';
+import  React from 'react';
+import  Highlight from 'react-highlight';
 
 import TableDocs from './../../../../Components/TableDocs';
 import { Docs } from './../../../../utils';

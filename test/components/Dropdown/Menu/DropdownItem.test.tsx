@@ -1,4 +1,4 @@
-import * as React from 'react';
+import  React from 'react';
 import { shallow } from 'enzyme';
 
 import { DropdownItem } from './../../../../src/components/Dropdown/Menu/DropdownItem';
@@ -19,7 +19,7 @@ describe('Dropdown', () => {
         const component = shallow(<DropdownItem href="#">My DropdownItem</DropdownItem>);
         expect(component.is('a')).toBe(true);
     });
-    
+
     it('should render a p with .dropdown-item', () => {
         const component = shallow(<DropdownItem tag="p">My DropdownItem</DropdownItem>);
         expect(component.hasClass('dropdown-item')).toBe(true);
